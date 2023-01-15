@@ -192,6 +192,22 @@ nav li {
 }
 
 /* icon style  */
+.icon-name {
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 53px;
+   color: #131313;
+   margin: 100px 10px 5px 60px;
+}
+
+.icon-title {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #727272;
+   padding: 0px 40px 30px 50px;
+}
+
 .icon-eliment {
    display: flex;
    justify-content: center;
@@ -222,4 +238,45 @@ nav li {
    font-size: 20px;
    line-height: 23px;
    color: #727272;
+}
+
+/* footer icon style  */
+.footers {
+   text-align: center;
+
+}
+
+.footer-name {
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 53px;
+   margin: 180px 0px 20px 0px;
+}
+
+.footer-title {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   text-align: center;
+   color: #727272;
+   margin-bottom: 50px;
+}
+
+.footer-icon {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 80px;
+   margin-bottom: 20px;
+}
+
+.the-end {
+   width: 40%;
+   height: 20px;
+   text-align: center;
+   margin: 100px 0px 100px 350px;
+   padding: 10px 100px;
+   background-color: #FFF4E7;
+   border-radius: 8px;
+   justify-content: center;
 }
