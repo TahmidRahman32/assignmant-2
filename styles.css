@@ -47,7 +47,7 @@ nav li {
 
    width: 862px;
    height: 225px;
-   margin: 200px 0px 10px 200px;
+   margin: 150px 0px 10px 150px;
    font-size: 64px;
    line-height: 75px;
    text-align: center;
@@ -117,14 +117,14 @@ nav li {
 .card-description {
    font-size: 16px;
    color: #727272;
-   padding-top: 30px;
+   padding-top: 10px;
 }
 
 .btn-primary-2 {
    color: #FFFFFF;
    text-align: center;
    border: 0px;
-   padding: 15px 30px;
+   padding: 10px 30px;
    background: #FF900E;
    border-radius: 8px;
    margin-top: 30px;
@@ -150,9 +150,23 @@ nav li {
 }
 
 .article-title {
+   position: relative;
+}
+
+.article-title h1 {
    font-weight: 700;
    font-size: 45px;
    margin-bottom: 24px;
+   margin-left: 25px;
+}
+
+.article-title::before {
+   content: "";
+   position: absolute;
+   height: 70%;
+   width: 5px;
+   background-color: #FF900E;
+   border-radius: 2px;
 }
 
 .article-description {
@@ -163,24 +177,24 @@ nav li {
 
 .article {
    background: #FFFFFF;
-   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+   box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.06);
    border-radius: 8px;
-   margin-bottom: 20px;
-   padding: 27px 50px 33px 22px;
+   margin-bottom: 15px;
+   padding: 10px 20px 20px 10px;
 
 }
 
 .article-name {
-   font-weight: 600;
+   font-weight: 400;
    font-size: 20px;
-   color: #131313;
-   margin: 15px 0px;
-   padding-top: 10px;
+   color:#131313;
+   margin: 5px 0px;
+   padding-top: 5px;
 }
 
 .articcle-1 {
-   font-weight: 400;
-   font-size: 16px;
+   font-weight: 300;
+   font-size: 14px;
    line-height: 26px;
    color: #727272;
 }
@@ -190,6 +204,38 @@ nav li {
    justify-content: center;
 
 }
+.extra-tag{
+   
+   width: 100%;
+   height: 50vh;
+   background-size: cover;
+   border-radius: 10px;
+   object-fit: cover;
+   object-position: bottom;
+   background-image: url("./g3-architects-main/images.jpg");
+
+}
+.tag-name{
+   font-size: 50px;
+   color:#FFF4E7;
+   margin-left: 40px;
+   padding-top: 60px;
+   
+}
+.tag-description{
+   font-size: 20px;
+   color:#FFF4E7;
+   margin-left: 40px;
+}
+.tag-btn-primary{
+   margin: 10px 40px;
+   padding: 10px 20px;
+   font-size: 20px;
+   color:#FFF4E7;
+   background-color: #FF900E;
+   border: 0px;
+   border-radius: 5px;
+}
 
 /* icon style  */
 .icon-name {
@@ -197,7 +243,7 @@ nav li {
    font-size: 45px;
    line-height: 53px;
    color: #131313;
-   margin: 100px 10px 5px 60px;
+   margin: 70px 10px 5px 40px;
 }
 
 .icon-title {
@@ -279,4 +325,24 @@ nav li {
    background-color: #FFF4E7;
    border-radius: 8px;
    justify-content: center;
+}
+
+.article-imgBox img {
+   display: block;
+}
+
+.article-imgButton {
+   transform: translate(-50%, -50%);
+   padding: 25px 40px;
+   font-size: 24px;
+   font-weight: 700;
+   border-radius: 8px;
+   border: 0;
+   background-color: #FF900E;
+   color: #FFFFFF;
+}
+
+.article-span {
+   display: block;
+   font-size: 12px;
 }
