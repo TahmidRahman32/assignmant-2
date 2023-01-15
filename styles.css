@@ -187,7 +187,7 @@ nav li {
 .article-name {
    font-weight: 400;
    font-size: 20px;
-   color:#131313;
+   color: #131313;
    margin: 5px 0px;
    padding-top: 5px;
 }
@@ -204,8 +204,9 @@ nav li {
    justify-content: center;
 
 }
-.extra-tag{
-   
+
+.extra-tag {
+
    width: 100%;
    height: 50vh;
    background-size: cover;
@@ -215,23 +216,26 @@ nav li {
    background-image: url("./g3-architects-main/images.jpg");
 
 }
-.tag-name{
+
+.tag-name {
    font-size: 50px;
-   color:#FFF4E7;
+   color: #FFF4E7;
    margin-left: 40px;
    padding-top: 60px;
-   
+
 }
-.tag-description{
+
+.tag-description {
    font-size: 20px;
-   color:#FFF4E7;
+   color: #FFF4E7;
    margin-left: 40px;
 }
-.tag-btn-primary{
+
+.tag-btn-primary {
    margin: 10px 40px;
    padding: 10px 20px;
    font-size: 20px;
-   color:#FFF4E7;
+   color: #FFF4E7;
    background-color: #FF900E;
    border: 0px;
    border-radius: 5px;
